@@ -50,3 +50,20 @@ function testInt(number) {
 testInt(3);
 testInt(3.14);
 testInt("hello");
+
+//***EXERCICE 6***
+const Color = ["Red", "Green", "White", "Black"];
+
+
+const result1 = Color.join(',');
+
+
+console.log(result1);
+
+//METHOD n2
+let result2 = Color[0];
+for (let i=1; i<Color.length; i++){
+    result2 = result2 + ',' + Color[i];
+}
+
+console.log(result2);
