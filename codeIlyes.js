@@ -8,6 +8,22 @@ function TestFunction(param1,param2,....)
 TestFunction(param1,param2,....);
 
 
+//***EXERCICE 3***
+function testInt(number) {
+  if (!Number.isInteger(number)) {
+    console.log("Number is not an integer.");
+  }
+  else
+  {
+      console.log(number + " is an integer.");
+  }
+}
+
+
+testInt(3);
+testInt(3.14);
+testInt("hello");
+
 //***EXERCICE 4***
 function checkArray(arr) {
   if (arr.length === 0) {
@@ -34,22 +50,6 @@ And this is line 3.`;
 
 const lines = split(string);
 console.log(lines);
-
-//***EXERCICE 3***
-function testInt(number) {
-  if (!Number.isInteger(number)) {
-    console.log("Number is not an integer.");
-  }
-  else
-  {
-      console.log(number + " is an integer.");
-  }
-}
-
-
-testInt(3);
-testInt(3.14);
-testInt("hello");
 
 //***EXERCICE 6***
 const Color = ["Red", "Green", "White", "Black"];
